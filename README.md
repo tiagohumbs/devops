@@ -11,3 +11,6 @@ https://hub.docker.com/
 
 https://github.com/tiagohumbs/devops/blob/master/comandosDocker.txt
 
+# Arquivo Run do Python
+
+
