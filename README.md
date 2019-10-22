@@ -2,7 +2,7 @@
 
 git clone https://github.com/tiagohumbs/docker.git
 
-#BUILD
+# BUILD
 
 docker build -t tiagohumbs/iftm:latest .
 
