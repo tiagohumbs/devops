@@ -2,6 +2,11 @@
 
 git clone https://github.com/tiagohumbs/docker.git
 
+#BUILD
+
+docker build -t tiagohumbs/iftm:latest .
+
+
 # devops links
 
 https://labs.play-with-docker.com/
