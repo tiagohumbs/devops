@@ -1,3 +1,7 @@
+Baixar imagem
+
+git clone https://github.com/tiagohumbs/docker.git
+
 # devops links
 
 https://labs.play-with-docker.com/
