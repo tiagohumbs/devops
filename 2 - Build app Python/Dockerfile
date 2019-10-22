@@ -1,10 +1,13 @@
 FROM python:3.6
-LABEL maintainer 'Meu nome'
+LABEL maintainer 'Meu nome’
 
 RUN useradd www && \
-    mkdir /app && \
-    mkdir /log && \
-    chown www /log
+mkdir /app && \
+mkdir /log && \
+chown www /log
+
+ADD run.py app/run.py
+ADD index.html app/index.html
 
 USER www
 VOLUME /log
